@@ -1,0 +1,21 @@
+{
+  "name": "homebridge-setup",
+  "version": "1.0.0",
+  "description": "homebridge setup",
+  "main": "config.json",
+  "scripts": {
+    "start": "homebridge -U .",
+    "test": "echo \"Error: haven't though how to test this yet.\" && exit 1"
+  },
+  "keywords": [
+    "homebridge",
+    "setup"
+  ],
+  "author": "Alvaro Pinot <alvaro@neatnait.com> (http://github.com/alvaropinot)",
+  "license": "MIT",
+  "dependencies": {
+    "homebridge": "^0.4.50",
+    "homebridge-http": "0.0.9",
+    "homebridge-ifttt": "^0.3.0"
+  }
+}
